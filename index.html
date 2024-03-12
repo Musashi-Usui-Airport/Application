@@ -10,13 +10,8 @@
 <body>
   <h1>乗り入れ・共同運行申請サイト</h1>
   <script>
-    // User Agentを取得
     const userAgent = window.navigator.userAgent;
-
-    // スマホ判定
     const isMobile = /Android|iPhone|iPad|iPod/i.test(userAgent);
-
-    // スマホの場合、メッセージを表示
     if (isMobile) {
       alert("スマホには最適化されていません。PCなど幅の広い端末でお試しください。");
     }
